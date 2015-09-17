@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html class=" js csstransitions">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<!--[if ie]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Yamil Taler</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link href="./css/style.css" rel="stylesheet" type="text/css">
+	<link rel="icon" href="http://www.favigen.com/favicon.png">
+	<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+	<style type="text/css"></style>
+	<script src="./js/script.js"></script>
+	<script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-67773031-1', 'auto');
+		  ga('send', 'pageview');
+		
+	</script>
+	<!--[if lt IE 9]>
+	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="container">
+		<header class="twelve columns">
+			<h1>Yamil Taler<span>Ingeniero Electrónico</span>
+			</h1>
+		</header>
+		<section id="personaldata">
+			<ul>
+				<li class="four columns date"><span class="info">Nacimiento<span>25 de Octubre de 1986</span></span></li>
+				<li class="four columns location"><span class="info">Ubicación<span><a href="https://goo.gl/maps/Z4iOL"  target="_blank">Córdoba, Argentina</span></span></li>
+				<li class="three columns phone"><span class="info">Teléfono<span>+54 351 2113697</span></span></li>
+				<li class="one columns language"></li>
+			</ul>
+		</section>
+		<section id="about" class="six columns">
+			<article class="left">
+				<header>
+					<h2>Acerca de mí</h2>
+				</header>
+				<p class="info">Soy un desarrollador de hardware y software, interesado en software libre, energías alternativas y bioelectrónica. Comencé como técnico independiente, y luego ingresé a trabajar en la filial en Argentina de la multinacional
+ <a target="_blank" href="http://www.canon.com.ar/">Canon</a>. Debido a mi perfil, me fui interiorizando en los desarollos que se realizaban y en conjunto con el área comercial vendiamos principalmente soluciones de software. Ahora estoy en la empresa <a target="_blank" href="http://www.doxer.com.ar/">Doxer</a> desarrollando soluciones de hardware y software.</p> 
+				<p class="info">About me, I can say that I am a passionate developer, who enjoys agile practices and who is always willing to learn new technologies. Additionally, I spend my time acquiring more knowledge within the scope of web development.</p>
+			</article>
+			<article class="left">
+				<header>
+					<h2>Acerca de ésta página</h2>
+				</header>
+				<p class="info">Aprovechando la posibilidad que <a target="_blank" href="http://www.github.com/">GitHub</a> tiene una nueva característica que da la posibilidad de crear perfiles personales, me decidí a crear mi propio CV en HtML.</p>
+				<ul>
+					<li class="info">Es de código abierto y está disponible en <a target="_blank" href="http://github.com/ytaler/ytaler.github.io">GitHub</a>.</li>
+					<li class="info">Esta página fue escrita en HTML 5.</li>
+					<li class="info">Utiliza JavaScript, jQuery y Modernizr.</li>
+					<li class="info">Tiene un diseño responsivo que funciona tanto en PC como en dispositivos móviles.</li>
+				</ul>
+			</article>
+		</section>
+		<section id="programming" class="six columns float-right">
+			<article class="right">
+				<header>
+					<h2>Conocimiento general</h2>
+				</header>
+				<p class="info">A continuación se encuentra una lista de tecnologías, herramientas de workflow y lenguajes de programación que he usado:</p>
+				<ul>
+					<li data-score="90" style="background-color: rgb(10, 87, 125);"><span>PlanetPress Suite</span></li>
+					<li data-score="80" style="background-color: rgb(20, 97, 115);"><span>Unix/Linux</span></li>
+					<li data-score="70" style="background-color: rgb(40, 117, 95);"><span>C/C++</span></li>
+					<li data-score="70" style="background-color: rgb(40, 117, 95);"><span>MPLABX</span></li>
+					<li data-score="60" style="background-color: rgb(30, 107, 105);"><span>JavaScript</span></li>
+					<li data-score="40" style="background-color: rgb(50, 127, 85);"><span>Perl</span></li>
+					<li data-score="60" style="background-color: rgb(40, 117, 95);"><span>VBScript</span></li>
+					<li data-score="50" style="background-color: rgb(30, 107, 105);"><span>SQL</span></li>
+					<li data-score="80" style="background-color: rgb(50, 127, 85);"><span>Altium Design / Kicad</span></li>
+				</ul>
+			</article>
+		</section>
+		<div id="history" class="clearfix">
+			<section class="six columns">
+				<article class="left">
+					<header>
+						<h2>Experiencia laboral</h2>
+					</header>
+					<ul>
+						<li><span class="year">07.15</span><span>Ingeniero de desarrollo en <a target="_blank" href="http://www.doxer.com.ar/" title="Doxer">Doxer (Partner oficial de Xerox)</a></span></li>
+						<li><span class="year">01.08</span><span>Ingeniero de desarrollo en <a target="_blank" href="http://www.canon.com.ar/" title="Canon Argentina">Canon Argentina</a></span></li>
+						<li><span class="year">09.06</span><span>Operador grupo ISG en <a target="_blank" href="http://www.canon.com.ar/" title="Canon Argentina">Canon Argentina</a></span></li>
+						<li><span class="year">01.04</span><span>Técnico independiente</span></li>
+					</ul>
+				</article>
+			</section>
+			<section class="six columns">
+				<article class="right">
+					<header>
+						<h2>Educación</h2>
+					</header>
+					<ul>
+						<li><span class="year">2010<span>- 2012</span></span><span>Curso de inglés. UNC, Cordoba, AR.</span></li>
+						<li><span class="year">2005 <span>- 2015</span></span><span>Ingeniero Electrónico. UTN FRC, Córdoba, AR</span></li>
+					</ul>
+				</article>
+			</section>
+		</div>
+		<section id="languages" class="six columns">
+			<article class="left">
+				<header>
+					<h2>Idiomas</h2>
+				</header>
+				<p class="info">Puedo hablar dos idiomas, haciendome entender en 3 como se puede observar en el gráfico: </p>
+				<ul>
+					<li data-score="100">
+						<div style="background-color: rgb(50, 127, 85); height: 100%;"></div>
+						<span>Español</span>
+					</li>
+					<li data-score="70">
+						<div style="background-color: rgb(75, 152, 60); height: 70%;"></div>
+						<span>Inglés</span>
+					</li>
+					<li data-score="40">
+						<div style="background-color: rgb(100, 177, 35); height: 40%;"></div>
+						<span>Portugués</span>
+					</li>
+				</ul>
+			</article>
+		</section>
+		<section id="contact" class="six columns">
+			<article class="right">
+				<header>
+					<h2>Contacto</h2>
+				</header>
+				<p class="info">Si quieres contactarme puedes usar alguna de las siguientes opciones:</p>
+				<ul>
+					<li class="twitter"><a href="https://twitter.com/ytaler" target="_blank">Twitter<span>@ytaler</span></a></li>
+					<li class="mail"><a href="mailto:yamil.taler@gmail.com" target="_blank">Email<span>yamil.taler@gmail.com</span></a></li>
+					<li class="linkedin"><a href="https://ar.linkedin.com/pub/yamil-taler/24/a99/52b" target="_blank">LinkedIn<span>Yamil Taler</span></a></li>
+					<li class="skype"><a href="https://www.skype.com" target="_blank">Skype<span>yamil.taler</span></a></li>
+					<li class="cv"><a href="./downloads/Resumen_ytaler_2015.pdf" target="_blank">Resumen<span>Descarga</span></a></li>
+				</ul>
+			</article>
+		</section>
+	</div>
+</body>
+</html>
