@@ -531,6 +531,7 @@ h1 span{
 #personaldata .date .info{background-position:10px -495px;}
 #personaldata .location .info{background-position:10px -227px;}
 #personaldata .phone .info{background-position:10px -342px;}
+#personaldata .language .info{background-position:10px -393px;}
 
 #contact ul li:hover{opacity:.8;margin-left:12px;}
 
