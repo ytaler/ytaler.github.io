@@ -55,7 +55,7 @@ function languages(){
 		g += s;
 		b -= s;
 			
-		//bar.style.backgroundColor = "rgb("+r+","+g+","+b+")";
+		bar.style.backgroundColor = "rgb("+r+","+g+","+b+")";
 		//bar.style.backgroundColor = bars[0].style.backgroundColor;
 		
 		$(bar).delay(i*50)
