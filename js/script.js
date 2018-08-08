@@ -34,6 +34,7 @@ function abilities(){
 
 function languages(){
 	var bars = $('#languages li div').get(),
+
 		r = 0%256,
 		g = 77%256,
 		b = 135%256,
@@ -44,13 +45,18 @@ function languages(){
 	for(; i < j; i++) {
 		var bar = bars[i],
 			new_width = +bar.parentNode.getAttribute('data-score')*.85;
+			color = bar.style.backgroundColor.replace('rgb(','').replace(')','').split(',');
+			r=parseInt(color[0])%256;
+			g=parseInt(color[1])%256;
+			b=parseInt(color[2])%256;
 			colorstart = {r:r,g:g,b:b};
-		
+			
 		r += s;
 		g += s;
 		b -= s;
 			
-		bar.style.backgroundColor = "rgb("+r+","+g+","+b+")";
+		//bar.style.backgroundColor = "rgb("+r+","+g+","+b+")";
+		//bar.style.backgroundColor = bars[0].style.backgroundColor;
 		
 		$(bar).delay(i*50)
 			.animate({height:new_width + '%'});
